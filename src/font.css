@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ArsenicaBold';
+    src: local('ArsenicaBold'),
+        url('./fonts/ArsenicaTrial-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ArsenicaBoldItalic';
+    src: local('ArsenicaBoldItalic'),
+        url('./fonts/ArsenicaTrial-BoldItalic.woff') format('woff');
+}
+
+/* This one */
+
+@font-face {
+    font-family: 'ArsenicaDemibold';
+    src: local('ArsenicaDemibold'),
+        url('./fonts/ArsenicaTrial-Demibold.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'ArsenicaDemiboldItalic';
+    src: local('ArsenicaDemiboldItalic'),
+        url('./fonts/ArsenicaTrial-DemiboldItalic.woff') format('woff');
+} */
+
+@font-face {
+    font-family: 'ArsenicaExtrabold';
+    src: local('ArsenicaExtrabold'),
+        url('./fonts/ArsenicaTrial-Extrabold.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'ArsenicaExtraboldItalic';
+    src: local('ArsenicaExtraboldItalic'),
+        url('./fonts/ArsenicaTrial-ExtraboldItalic.woff') format('woff');
+} */
+
+/* @font-face {
+    font-family: 'ArsenicaItalic';
+    src: local('ArsenicaItalic'),
+        url('./fonts/ArsenicaTrial-Italic.woff') format('woff');
+} */
+
+@font-face {
+    font-family: 'ArsenicaLight';
+    src: local('ArsenicaLight'),
+        url('./fonts/ArsenicaTrial-Light.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'ArsenicaLightItalic';
+    src: local('ArsenicaLightItalic'),
+        url('./fonts/ArsenicaTrial-LightItalic.woff') format('woff');
+} */
+
+/* one */
+
+@font-face {
+    font-family: 'ArsenicaMedium';
+    src: local('ArsenicaMedium'),
+        url('./fonts/ArsenicaTrial-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ArsenicaMediumItalic';
+    src: local('ArsenicaMediumItalic'),
+        url('./fonts/ArsenicaTrial-MediumItalic.woff') format('woff');
+}
+
+/* Two*/
+
+@font-face {
+    font-family: 'ArsenicaRegular';
+    src: local('ArsenicaRegular'),
+        url('./fonts/ArsenicaTrial-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ArsenicaThin';
+    src: local('ArsenicaThin'),
+        url('./fonts/ArsenicaTrial-Thin.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'ArsenicaThinItalic';
+    src: local('ArsenicaThinItalic'),
+        url('./fonts/ArsenicaTrial-ThinItalic.woff') format('woff');
+} */

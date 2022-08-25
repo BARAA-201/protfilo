@@ -4,11 +4,12 @@ import Tic from '../assets/tic-tac.jpg'
 
 function Work() {
     return (
-        <div name='work' className='bg-[#226469] w-full md:h-screen text-violet-50 '>
+        <div name='work' className='bg-[#7D9D9C] w-full h-screen text-lg text-[#F0EBE3] '>
+
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' >
                 <div className='pb-8'>
-                    <p className='text-5xl font-bold inline border-b-4 border-[#737373]'>Work</p>
-                    <p className='py-4'>Check out some of my work</p>
+                    <p className='text-5xl font-bold inline border-b-4 border-[#737373] py-2 text-slate-800'>Work</p>
+                    <p className='py-6'>Check out some of my work</p>
                 </div>
 
                 {/* countainer */}
@@ -23,10 +24,10 @@ function Work() {
                                 React and Node Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://easy-reach.herokuapp.com/home">
+                                <a href="https://easy-reach.herokuapp.com/home" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-zinc-200 text-gray-700 font-bold text-lg'>Visit Website</button>
                                 </a>
-                                <a href="/">
+                                <a href="/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-zinc-200 text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -41,10 +42,10 @@ function Work() {
                                 Tic-Tac game
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://baraa-201.github.io/tic-tac/">
+                                <a href="https://baraa-201.github.io/tic-tac/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-zinc-200 text-gray-700 font-bold text-lg'>Visit Website</button>
                                 </a>
-                                <a href="https://github.com/BARAA-201/tic-tac">
+                                <a href="https://github.com/BARAA-201/tic-tac" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-zinc-200 text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -92,6 +93,7 @@ function Work() {
                 </div>
 
             </div>
+
         </div>
     )
 }

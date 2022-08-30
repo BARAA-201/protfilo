@@ -2,17 +2,17 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div name='contact' className='bg-[#7D9D9C] w-full h-full flex justify-center items-center'>
+        <div name='contact' className='bg-gradient-to-b from-[#FEFBF3] via-[#F8F0DF] to-[#F1F1F1] w-full h-full flex justify-center items-center'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <form method='POST' action='https://getform.io/f/8bfbc047-8d86-49de-afc0-806f9d34a126' className='flex flex-col max-w-[600px] w-full pt-28'>
                     <div className='pb-8'>
-                        <p className=' text-5xl font-bold inline border-b-4 border-[#737373] text-slate-800 py-2'> Contact Me </p>
+                        <p className=' text-5xl font-bold inline border-b-4 border-[#737373] text-[#678983]  py-2'> Contact Me </p>
                         {/* <p className='py-6 text-[#F0EBE3] text-lg'> You can contact me directly to my Email: <span style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Albr590@gmail.com</span> </p> */}
                     </div>
-                    <input className='bg-gray-300 p-2 font-serif' type="text" placeholder='Name' name='name' />
-                    <input className='bg-gray-300 my-4 p-2 font-serif' type="email" placeholder='Email' name='email' />
-                    <textarea className='bg-gray-300 p-2 font-serif' name="message" id="" cols="10" rows="10"></textarea>
-                    <button className='text-white border-2 px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#576F72] hover:border-[#576F72] font-[ArsenicaBold]'>Send your massage</button>
+                    <input className='bg-white-100 p-2 font-serif' type="text" placeholder='Name' name='name' />
+                    <input className='bg-white my-4 p-2 font-serif' type="email" placeholder='Email' name='email' />
+                    <textarea className='bg-white-50 p-2 font-serif' placeholder='Message' name="message" id="" cols="10" rows="10"></textarea>
+                    <button className='text-slate-800 border-2 border-[#737373] px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#8aaaa4] hover:border-[#8aaaa4] font-[ArsenicaBold] text-lg duration-300'>Send your massage</button>
 
                 </form>
             </div >

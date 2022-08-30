@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Logo from '../assets/baraLogo02.png'
+import Logo from '../assets/logotest02.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
-import Cv from '../assets/Al-Baraa_Abdo_-_Full_Stack_Developer.pdf'
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#576F72] text-white'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#678983] via-[#9D9D9D] to-[#79B4B7] text-white'>
             <div>
                 <img src={Logo} alt="Logo Image" style={{ width: '150px' }} />
             </div>
@@ -54,22 +54,24 @@ const Navbar = () => {
             </div>
             {/* mobile menu */}
 
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#7D9D9C] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute  z-100 top-0 left-0 w-full h-screen bg-gradient-to-t  from-[#678983] via-[#9D9D9D] to-[#79B4B7] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'> <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
                 </Link></li>
-                <li className='py-6 text-4xl' ><Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                <li className='py-6 text-4xl ' ><Link onClick={handleClick} to="about" smooth={true} duration={500}>
                     About
                 </Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+                <li className=' py-6 text-4xl '><Link onClick={handleClick} to="skills" smooth={true} duration={500}>
                     Skills
                 </Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to="work" smooth={true} duration={500}>
+                <li className=' py-6 text-4xl '><Link onClick={handleClick} to="work" smooth={true} duration={500}>
                     Work
                 </Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+                <li className=' py-6 text-4xl md:z-100'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
                     Contact
                 </Link></li>
+
+
             </ul>
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

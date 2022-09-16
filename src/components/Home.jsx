@@ -16,11 +16,13 @@ const Home = () => {
 
                 <p className='font-serif font-bold text-sm max-w-[700px] text-slate-800 py-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum veritatis quo enim accusantium? Molestias, alias optio repellendus quia ab totam quibusdam aperiam! , facilis dolor, odit iste, rerum mollitia nisi.  voluptatibus est dolorum delectus cum eos rerum soluta impedit assumenda ex voluptates iure facere necessitatibus alias asperiores eum quas. esse temporibus animi. Explicabo molestiae perferendis natus?</p>
 
-                <div>
-                    <button className=' text-slate-800 group border-2 border-[#737373] px-6 py-2 my-2 flex items-center font-[ArsenicaBoldItalic] hover:bg-[#8aaaa4] hover:border-[#8aaaa4] '><Link to="work" smooth={true} duration={500}>
-                        View Work
-                    </Link> <HiArrowNarrowRight className='ml-2 group-hover:rotate-90 duration-300' /> </button>
-                </div>
+                <Link to="work" smooth={true} duration={500}>
+                    <button className='
+                 text-slate-800 group border-2 border-[#737373] px-6 py-2 my-2 flex items-center font-[ArsenicaBoldItalic] hover:bg-[#8aaaa4] hover:border-[#8aaaa4] '>
+                        <Link to="work" smooth={true} duration={500}>
+                            View Work
+
+                        </Link><HiArrowNarrowRight className='ml-2 group-hover:rotate-90 duration-300' /></button></Link>
             </div>
         </div>
     )

@@ -54,7 +54,7 @@ const Navbar = () => {
             </div>
             {/* mobile menu */}
 
-            <ul className={!nav ? 'hidden' : 'absolute  z-100 top-0 left-0 w-full h-screen bg-gradient-to-t  from-[#678983] via-[#9D9D9D] to-[#79B4B7] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute  top-0 left-0 w-full h-screen bg-gradient-to-t  from-[#678983] via-[#9D9D9D] to-[#79B4B7] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'> <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
                 </Link></li>
@@ -71,6 +71,26 @@ const Navbar = () => {
                     Contact
                 </Link></li>
 
+                <div className=' flex flex-row mt-20 justify-center space-x-3 items-center'>
+                    <li className='py-2 flex justify-between items-center border-2 px-5 border-[#737373] bg-gray-800 hover:scale-105 duration-500  '>
+                        <a href="https://www.linkedin.com/in/albaraa-saad/" target="_blank">
+                            <FaLinkedin size={30} /><p className='py-2 text-[#faebc1] flex justify-between items-center '>LinkedIn</p>
+                        </a>
+
+                    </li>
+
+                    <li className='py-2 flex justify-between items-center border-2 px-5 border-[#737373] bg-gray-800 hover:scale-105 duration-500  '>
+                        <a href="https://github.com/BARAA-201" target="_blank">
+                            <FaGithub size={30} /><p className='py-2 text-[#faebc1]'>GitHub</p>
+                        </a>
+                    </li>
+
+                    <li className='py-2 flex justify-between items-center border-2 px-5 border-[#737373] bg-gray-800 hover:scale-105 duration-500'>
+                        <a href='https://drive.google.com/file/d/1ixB3WTrvQJBT8JFeWkelXL9yzaOOyORO/view?usp=sharing' target="_blank" >
+                            <BsFillPersonLinesFill size={30} /><p className='py-2 text-[#faebc1]'>Resume</p>
+                        </a>
+                    </li>
+                </div>
 
             </ul>
             {/* Social icons */}

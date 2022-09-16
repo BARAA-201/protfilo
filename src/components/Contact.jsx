@@ -9,9 +9,9 @@ function Contact() {
                         <p className=' text-5xl font-bold inline border-b-4 border-[#737373] text-[#678983]  py-2'> Contact Me </p>
                         {/* <p className='py-6 text-[#F0EBE3] text-lg'> You can contact me directly to my Email: <span style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Albr590@gmail.com</span> </p> */}
                     </div>
-                    <input className='bg-white-100 p-2 font-serif' type="text" placeholder='Name' name='name' />
-                    <input className='bg-white my-4 p-2 font-serif' type="email" placeholder='Email' name='email' />
-                    <textarea className='bg-white-50 p-2 font-serif' placeholder='Message' name="message" id="" cols="10" rows="10"></textarea>
+                    <input className='bg-white-100 p-2 font-serif' type="text" placeholder='Name' name='name' required />
+                    <input className='bg-white my-4 p-2 font-serif' type="email" placeholder='Email' name='email' required />
+                    <textarea className='bg-white-50 p-2 font-serif' placeholder='Message' name="message" id="" cols="10" rows="10" required></textarea>
                     <button className='text-slate-800 border-2 border-[#737373] px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#8aaaa4] hover:border-[#8aaaa4] font-[ArsenicaBold] text-lg duration-300'>Send your massage</button>
 
                 </form>

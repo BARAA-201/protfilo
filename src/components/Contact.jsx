@@ -1,22 +1,54 @@
 import React from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+
 
 function Contact() {
     return (
-        <div name='contact' className='bg-gradient-to-b from-[#FEFBF3] via-[#F8F0DF] to-[#F1F1F1] w-full h-full flex justify-center items-center'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <form method='POST' action='https://getform.io/f/8bfbc047-8d86-49de-afc0-806f9d34a126' className='flex flex-col max-w-[600px] w-full pt-28'>
-                    <div className='pb-8'>
-                        <p className=' text-5xl font-bold inline border-b-4 border-[#737373] text-[#678983]  py-2'> Contact Me </p>
-                        {/* <p className='py-6 text-[#F0EBE3] text-lg'> You can contact me directly to my Email: <span style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Albr590@gmail.com</span> </p> */}
-                    </div>
-                    <input className='bg-white-100 p-2 font-serif' type="text" placeholder='Name' name='name' required />
-                    <input className='bg-white my-4 p-2 font-serif' type="email" placeholder='Email' name='email' required />
-                    <textarea className='bg-white-50 p-2 font-serif' placeholder='Message' name="message" id="" cols="10" rows="10" required></textarea>
-                    <button className='text-slate-800 border-2 border-[#737373] px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#8aaaa4] hover:border-[#8aaaa4] font-[ArsenicaBold] text-lg duration-300'>Send your massage</button>
+        <div>
+            <div name='contact' className='bg-gradient-to-b from-[#FEFBF3] via-[#F8F0DF] to-[#F1F1F1] w-full h-full flex justify-center items-center'>
+                <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+                    <form method='POST' action='https://getform.io/f/8bfbc047-8d86-49de-afc0-806f9d34a126' className='flex flex-col max-w-[600px] w-full pt-28'>
+                        <div className='pb-8'>
+                            <p className=' text-5xl font-bold inline border-b-4 border-[#737373] text-[#678983]  py-2'> Contact Me </p>
+                            {/* <p className='py-6 text-[#F0EBE3] text-lg'> You can contact me directly to my Email: <span style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Albr590@gmail.com</span> </p> */}
+                        </div>
+                        <input className='bg-white-100 p-2 font-serif' type="text" placeholder='Name' name='name' required />
+                        <input className='bg-white my-4 p-2 font-serif' type="email" placeholder='Email' name='email' required />
+                        <textarea className='bg-white-50 p-2 font-serif' placeholder='Message' name="message" id="" cols="10" rows="10" required></textarea>
+                        <button className='text-slate-800 border-2 border-[#737373] px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#8aaaa4] hover:border-[#8aaaa4] font-[ArsenicaBold] text-lg duration-300'>Send your massage</button>
 
-                </form>
+                    </form>
+                </div >
+
             </div >
-        </div >
+
+            {/* Bottom Nav */}
+            <div className='
+                absolute w-full h-[100px] flex justify-center items-center px-4 bg-gradient-to-r from-[#678983] via-[#9D9D9D] to-[#79B4B7]'>
+                <div className='md:hidden reletive flex flex-row justify-center space-x-3 items-center'>
+                    <li className='py-1 flex justify-between items-center px-5 '>
+                        <a href="https://www.linkedin.com/in/albaraa-saad/" target="_blank">
+                            <FaLinkedin size={30} />
+                        </a>
+
+                    </li>
+
+                    <li className='py-1 flex justify-between items-center px-5 '>
+                        <a href="https://github.com/BARAA-201" target="_blank">
+                            <FaGithub size={30} />
+                        </a>
+
+                    </li>
+
+                    <li className='py-1 flex justify-between items-center px-5 '>
+                        <a href='https://drive.google.com/file/d/1ixB3WTrvQJBT8JFeWkelXL9yzaOOyORO/view?usp=sharing' target="_blank" >
+                            <BsFillPersonLinesFill size={30} />
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
 
         // <div name='contact' className='w-full h-full bg-[#0a192f] '>
         //     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>

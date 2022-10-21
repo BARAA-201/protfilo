@@ -12,9 +12,9 @@ const Home = () => {
 
                 <h1 className='font-[ArsenicaBold] text-4xl py-2 truncate hover:text-clip text-slate-800'>BARAA</h1>
 
-                <h2 className='font-[ArsenicaExtrabold] text-4xl text-[#678983]'>I'm a Full-Stack Developer. </h2>
+                <h2 className='font-[ArsenicaExtrabold] text-4xl text-[#678983]'>I'm a Full-Stack Web Developer. </h2>
 
-                <p className='font-serif font-bold text-sm max-w-[700px] text-slate-800 py-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum veritatis quo enim accusantium? Molestias, alias optio repellendus quia ab totam quibusdam aperiam! , facilis dolor, odit iste, rerum mollitia nisi.  voluptatibus est dolorum delectus cum eos rerum soluta impedit assumenda ex voluptates iure facere necessitatibus alias asperiores eum quas. esse temporibus animi. Explicabo molestiae perferendis natus?</p>
+                <p className='font-serif font-bold text-sm max-w-[700px] text-slate-800 py-4'>I'm working as a freelance Full-Stack Web Developer. I'll be happy to help you create your ideal website.</p>
 
                 <Link to="work" smooth={true} duration={500}>
                     <button className='

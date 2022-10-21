@@ -19,7 +19,7 @@ const About = () => {
                         <p>Hi. I'm Baraa Nice to meet you. Plz take a look around.</p>
                     </div>
                     <div className=' text-lg font-bold font-serif text-slate-800'>
-                        <p>voluptatibus est dolorum delectus cum eos rerum soluta impedit assumenda ex voluptates iure facere necessitatibus alias asperiores eum quas. esse temporibus animi. Explicabo molestiae perferendis natus?</p>
+                        <p>I graduated in business administration and worked in different fields for the past 6 years. At the beginning of 2022, I enrolled in a full-stack web development Bootcamp provided by Youthink Academy powered by WozU and graduated as a full-stack web developer. Now I'm working as a freelancer trying to apply and improve my skills. </p>
                     </div>
                 </div>
 
